@@ -54,7 +54,7 @@ firebase.initializeApp(firebaseConfig);
     document.getElementById("e6").innerHTML="Running";
   }
 
-  if (3 < y && 20 > y) {
+  if (1 < y && 20 > y) {
     document.getElementById("e1").innerHTML="Jump rope";
     document.getElementById("e2").innerHTML="Swimming";
     document.getElementById("e3").innerHTML="Cycling";
