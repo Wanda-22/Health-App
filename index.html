@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Health App</title>
+
+    <script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-firestore.js"></script>
+<script src="https://www.gstatic.com/firebasejs/live/3.1/firebase.js"></script>
+
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+<link rel="stylesheet" type="text/css" href="style.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Audiowide|Sofia|Trirong">
+
+
+<script src="main.js"></script>
+</head>
+<body>
+	<center>
+       
+        <img src="Health App.png" class="logo">
+        <h1>Health App</h1>
+        <div class="col-lg-4 col-sm-8 col-xs-11 form_div" >
+            <br>
+            <label>Enter Your Name</label>
+            <input id="name" class="form-control" placeholder="Enter Your Name">
+            <label>Enter Your Age</label>
+            <input id="Age" class="form-control" placeholder="Enter Your Age">
+            <label>Enter Your Weight</label>
+            <input id="weight" class="form-control" placeholder="Enter Your Weight">
+            <label>Enter Your Height</label>
+            <input id="height" class="form-control" placeholder="Enter Your Height">
+
+                <label>What Is Your Blood Group</label>
+                <input type="text" id="bg" class="form-control" placeholder="A+, A-, B+, B-, AB+, AB-, O+, and O-">
+                <label>Do You Have Any Disease</label>
+                <input type="text" id="di" class="form-control" placeholder="Do You Have Any Disease">        
+            <br>
+        </div>
+            <br>
+            <button id="details" onclick="send()">Send</button>
+
+        </center>   	
+</body>
+</html>

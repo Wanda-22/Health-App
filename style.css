@@ -1,0 +1,46 @@
+html, body
+{
+  height: 100%;
+  margin: 0;
+  color: crimson;
+}
+
+body
+{
+    text-align: center;
+    background-image: url("bg4.jpg");
+    font-family: 'Sofia';
+}
+
+
+.form_div
+{
+	background: rgba(255, 234, 234, 0.8);
+    
+    font-size: 30px;
+    float: none;
+    border-radius: 15px;
+    box-shadow: 20px 20px 50px 10px pink inset;
+
+}
+
+.logo
+{
+	width: 200px;
+    height: 150px;
+    margin-top: 30px;
+    border-radius: 10px;
+}
+
+button{
+    width: 100px;
+    height: 50px;
+    border-radius: 10px;   
+    font-size: 15px;
+    background-color: #2E8B57;
+    color: white;
+}
+
+.D{
+    color: #DC143C;
+}
